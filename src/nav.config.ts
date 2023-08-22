@@ -13,7 +13,7 @@ import {
   ServerIcon,
   ChatBubbleLeftRightIcon,
 } from '@heroicons/react/24/outline'
-import { FaNodeJs, FaPython } from 'react-icons/fa'
+import { FaNodeJs, FaPython, FaJava } from 'react-icons/fa'
 import { SiCsharp, SiPulumi } from 'react-icons/si'
 import { BiLogoGoLang } from 'react-icons/bi'
 import { useRouter } from 'next/router'
@@ -133,6 +133,11 @@ const fullNav: FullNav = {
           title: 'C# .NET (Experimental 🧪)',
           href: '/reference/csharp/v0',
           icon: SiCsharp,
+        },
+        {
+          title: 'JVM (Experimental 🧪)',
+          href: '/reference/jvm/v0',
+          icon: FaJava,
         },
       ],
     },
