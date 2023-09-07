@@ -453,6 +453,10 @@ const fullNav: FullNav = {
           title: 'Azure Resource Manager',
           href: '/faq/comparison/bicep',
         },
+        {
+          title: 'SST',
+          href: '/faq/comparison/sst',
+        },
       ],
     },
   ],
